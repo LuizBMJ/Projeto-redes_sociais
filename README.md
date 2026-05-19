@@ -1,43 +1,67 @@
-# Projeto Redes Sociais
+# Social Media Smartphone UI
 
-Uma aplicacao web que simula a interface de um celular smartphone, exibindo diferentes redes sociais em um formato interativo.
+> Interactive smartphone interface showcasing social media pages with iframe navigation
 
-## Descricao
+![Badge](https://img.shields.io/badge/HTML5-E34F26?style=flat-square\&logo=html5\&logoColor=white)
+![Badge](https://img.shields.io/badge/CSS3-1572B6?style=flat-square\&logo=css3\&logoColor=white)
+![Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black)
+![Badge](https://img.shields.io/badge/Responsive_UI-000000?style=flat-square\&logo=css3\&logoColor=white)
+![Badge](https://img.shields.io/badge/License-MIT-yellow?style=flat-square\&logo=open-source-initiative\&logoColor=white)
 
-Este projeto apresenta uma tela de celular com um menu de navegacao que permite acessar diferentes redes sociais:
-- **Home** - Tela inicial
-- **GitHub** - Perfil do GitHub
-- **Instagram** - Perfil do Instagram
-- **Twitter** - Perfil do Twitter
+---
 
-A interface e renderizada dentro de um iframe, proporcionando uma experiencia visual que模仿 um dispositivo movel.
+## 📌 Overview
 
-## Tecnologias
+This project is a web application that simulates a smartphone interface displaying different social media pages in an interactive format.
+The interface uses an iframe-based navigation system to switch between pages such as GitHub, Instagram, Twitter, and a home screen, creating the visual experience of interacting with a mobile device.
+It was developed as a frontend practice project focused on layout design, iframe navigation, and responsive user interfaces.
 
-- HTML5
-- CSS3
-- JavaScript (iframe)
+## 🛠️ Technologies
 
-## Como executar
+* **HTML5** — Semantic page structure and iframe integration
+* **CSS3** — Styling, layout, and smartphone interface design
+* **JavaScript** — Interactive iframe navigation and page switching
+* **Responsive UI** — Adaptive interface inspired by mobile devices
 
-1. Clone o repositorio
-2. Abra o arquivo `index.html` em seu navegador
+## 📁 Project Structure
 
-## Estrutura
-
+```bash id="q3m7xn"
+.
+├── index.html                  # Main application page
+│
+├── paginas/                    # Social media pages
+│   ├── homescreen.html         # Home screen interface
+│   ├── github.html             # GitHub profile page
+│   ├── instagram.html          # Instagram profile page
+│   └── twitter.html            # Twitter profile page
+│
+├── imagens/                    # Project images and assets
+│
+├── estilos/
+│   └── style.css               # Main project stylesheet
+│
+├── README.md                   # Project documentation
+└── LICENSE                     # Project license
 ```
-projeto-redes_sociais/
-├── index.html          # Pagina principal
-├── paginas/            # Paginas das redes sociais
-│   ├── homescreen.html
-│   ├── github.html
-│   ├── instagram.html
-│   └── twitter.html
-├── imagens/            # Arquivos de imagem
-└── estilos/
-    └── style.css       # Estilos do projeto
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash id="r6k1tp"
+git clone https://github.com/LuizBMJ/social-media-smartphone-ui.git
 ```
 
-## Licença
+Navigate to the project folder:
 
-[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+```bash id="m9v4qs"
+cd social-media-smartphone-ui
+```
+
+Open the `index.html` file in any modern web browser to run the project.
+
+No additional dependencies or installations are required.
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
